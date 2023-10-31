@@ -4688,6 +4688,17 @@ xclip
 	margin-bottom: 120px;
 }
 
+.about-style-six .thumb .wow {
+	margin-bottom: -24%;
+	margin-left: -1%;
+}
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+	.about-style-six .thumb .wow {
+		margin-left: -10% !important;
+	}
+  }
+
 .about-style-six .thumb::after {
 	position: absolute;
 	left: 50%;
